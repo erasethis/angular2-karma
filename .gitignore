@@ -1,4 +1,7 @@
+.vscode
 typings
+src/main.js
+src/main.js.map
 app/**/*.js
 app/**/*.map
 node_modules
