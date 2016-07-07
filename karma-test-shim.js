@@ -5,27 +5,26 @@ jasmine.DEFAULT_TIMEOUT_INTERVAL = 1000;
 __karma__.loaded = function () {
 };
 
-
 function isJsFile(path) {
   return path.slice(-3) == '.js';
 }
 
 function isSpecFile(path) {
-  return path.slice(-8) == '_test.js';
+  return path.slice(-8) == '.spec.js';
 }
 
 function isBuiltFile(path) {
-  var builtPath = '/base/built/';
+  var builtPath = '/base/dist/';
   return isJsFile(path) && (path.substr(0, builtPath.length) == builtPath);
 }
 
 var allSpecFiles = Object.keys(window.__karma__.files)
-  .filter(isSpecFile)
+ // .filter(isSpecFile)
   .filter(isBuiltFile);
 
 // Load our SystemJS configuration.
 System.config({
-  baseURL: '/base'
+  baseURL: '/base/'
 });
 
 System.config(
@@ -33,7 +32,7 @@ System.config(
   map: {
     'rxjs': 'node_modules/rxjs',
     '@angular': 'node_modules/@angular',
-    'app': 'built'
+    'app': 'dist'
   },
   packages: {
     'app': {

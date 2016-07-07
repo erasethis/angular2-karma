@@ -25,7 +25,7 @@ module.exports = function(config) {
       { pattern: 'node_modules/rxjs/**/*.js', included: false, watched: false },
       { pattern: 'node_modules/rxjs/**/*.js.map', included: false, watched: false },
 
-      { pattern: 'config/karma-test-shim.js', included: true, watched: true },
+      { pattern: 'karma-test-shim.js', included: true, watched: true },
       { pattern: 'dist/test/matchers.js', included: true, watched: true },
 
       // paths loaded via module imports
@@ -52,7 +52,26 @@ module.exports = function(config) {
       "/app/": "/base/dist/app/"
     },
 
-    reporters: ['progress'],
+    preprocessors: {
+      // source files, that you want to generate coverage for
+      // do not include tests or libraries
+      // (these files will be instrumented by Istanbul)
+      'dist/app/**/*.js': ['coverage']
+    },
+
+    htmlReporter: {
+      outputFile: 'test/results/index.html'
+    },
+
+    // optionally, configure the reporter
+    coverageReporter: {
+      type: 'json',
+      dir: 'test/results/',
+      subdir: '.',
+      file: 'coverage.json'
+    },
+
+    reporters: ['progress', 'html', 'coverage'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,

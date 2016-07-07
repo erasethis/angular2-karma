@@ -1,0 +1,5 @@
+{
+  "port": 3000,
+  "startPath": "src/index.html",
+  "browser": "chrome"
+}

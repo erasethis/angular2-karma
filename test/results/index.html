@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Unit Test Results</title>
+    <style type="text/css">html,body{font-family:Arial,sans-serif;font-size:1rem;margin:0;padding:0;}body{padding:10px 40px;}h1{margin-bottom:0;}h2{margin-top:0;margin-bottom:0;color:#999;}table{width:100%;margin-top:20px;margin-bottom:20px;table-layout:fixed;}tr.header{background:#ddd;font-weight:bold;border-bottom:none;}td{padding:7px;border-top:none;border-left:1px black solid;border-bottom:1px black solid;border-right:none;word-break:break-all;word-wrap:break-word;}tr.pass td{color:#003b07;background:#86e191;}tr.skip td{color:#7d3a00;background:#ffd24a;}tr.fail td{color:#5e0e00;background:#ff9c8a;}tr:first-child td{border-top:1px black solid;}td:last-child{border-right:1px black solid;}tr.overview{font-weight:bold;color:#777;}tr.overview td{padding-bottom:0px;border-bottom:none;}tr.system-out td{color:#777;}tr.system-errors td{color:#f00;}hr{height:2px;margin:30px 0;background:#000;border:none;}section{margin-top:40px;}h3{margin:6px 0;}.overview{color:#333;font-weight:bold;}.system-out{margin:0.4rem 0;}.system-errors{color:#a94442}.spec{padding:0.8rem;margin:0.3rem 0;}.spec--pass{color:#3c763d;background-color:#dff0d8;border:1px solid #d6e9c6;}.spec--skip{color:#8a6d3b;background-color:#fcf8e3;border:1px solid #faebcc;}.spec--fail{color:#a94442;background-color:#f2dede;border:1px solid #ebccd1;}.spec--group{color:#636363;background-color:#f0f0f0;border:1px solid #e6e6e6;margin:0;}.spec--group:not(:first-of-type){margin:20px 0 0 0;}.spec__title{display:inline;}.spec__suite{display:inline;}.spec__descrip{font-weight:normal;}.spec__status{float:right;}.spec__log{padding-left: 2.3rem;}.hidden{display:none;}body.compact .spec p{margin-top:0;margin-bottom:0.5rem;}body.compact .spec,body.compact tr,body.compact .overview,body.compact .system-out,body.compact .system-errors{font-size:0.85rem;}body.compact .spec{padding:0.3rem 0.5rem;}body.compact section{margin-top:30px;}</style>
+  </head>
+  <body class="">
+    <h1>Unit Test Results</h1>
+    <section>
+      <header class="overview">
+        <div class="browser">Browser: Chrome 51.0.2704 (Windows 10 0.0.0)</div>
+        <div class="timestamp">Timestamp: 7/7/2016, 11:37:50 PM</div>
+        <p class="results">
+          4 tests / 
+          0 errors / 
+          0 failures / 
+          2 skipped / 
+          runtime: 0.006s
+        </p>
+      </header>
+      <div class="spec spec--pass" style="">
+        <h3 class="spec__header">
+          <div class="spec__title">
+            <p class="spec__suite">universal truths</p>
+            <em class="spec__descrip">should do math</em>
+          </div>
+          <div class="spec__status">Passed in 0.005s</div>
+        </h3>
+      </div>
+      <div class="spec spec--skip" style="">
+        <h3 class="spec__header">
+          <div class="spec__title">
+            <p class="spec__suite">universal truths</p>
+            <em class="spec__descrip">should skip this</em>
+          </div>
+          <div class="spec__status">Skipped</div>
+        </h3>
+      </div>
+      <div class="spec spec--pass" style="">
+        <h3 class="spec__header">
+          <div class="spec__title">
+            <p class="spec__suite">universal truths</p>
+            <em class="spec__descrip">should do math</em>
+          </div>
+          <div class="spec__status">Passed in 0.001s</div>
+        </h3>
+      </div>
+      <div class="spec spec--skip" style="">
+        <h3 class="spec__header">
+          <div class="spec__title">
+            <p class="spec__suite">universal truths</p>
+            <em class="spec__descrip">should skip this</em>
+          </div>
+          <div class="spec__status">Skipped</div>
+        </h3>
+      </div>
+      <div class="system-out"><strong>System output:</strong><br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'EXCEPTION: Error in ./AppComponent class AppComponent_Host - inline template:0:0'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'ORIGINAL EXCEPTION: The selector "kma-app" did not match any elements'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'ORIGINAL STACKTRACE:'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'ERROR CONTEXT:'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: DebugContext{_view: DebugAppView{clazz: function _View_AppComponent_Host0(viewUtils,parentInjector,declarationEl) { ... }, componentType: RenderComponentType{id: ..., templateUrl: ..., slotCount: ..., encapsulation: ..., styles: ...}, type: 0, viewUtils: ViewUtils{_renderer: ..., _appId: ..., _nextCompTypeId: ..., sanitizer: ...}, parentInjector: ReflectiveInjector_{_debugContext: ..., _constructionCounter: ..., _proto: ..., _parent: ..., _strategy: ...}, declarationAppElement: null, cdMode: 4, contentChildren: [], viewChildren: [], viewContainerElement: null, numberOfChecks: 0, activeAnimationPlayers: ActiveAnimationPlayersMap{_map: ..., _allPlayers: ...}, ref: ViewRef_{_view: ..., _originalMode: ...}, renderer: DebugDomRenderer{_delegate: ...}, staticNodeDebugInfos: [...], _currentDebugContext: DebugContext{_view: ..., _nodeIndex: ..., _tplRow: ..., _tplCol: ...}, context: Object{}, _hasExternalHostElement: true, projectableNodes: []}, _nodeIndex: 0, _tplRow: 0, _tplCol: 0}
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'EXCEPTION: Error in ./AppComponent class AppComponent_Host - inline template:0:0'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'ORIGINAL EXCEPTION: The selector "kma-app" did not match any elements'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'ORIGINAL STACKTRACE:'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'ERROR CONTEXT:'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: DebugContext{_view: DebugAppView{clazz: function _View_AppComponent_Host0(viewUtils,parentInjector,declarationEl) { ... }, componentType: RenderComponentType{id: ..., templateUrl: ..., slotCount: ..., encapsulation: ..., styles: ...}, type: 0, viewUtils: ViewUtils{_renderer: ..., _appId: ..., _nextCompTypeId: ..., sanitizer: ...}, parentInjector: ReflectiveInjector_{_debugContext: ..., _constructionCounter: ..., _proto: ..., _parent: ..., _strategy: ...}, declarationAppElement: null, cdMode: 4, contentChildren: [], viewChildren: [], viewContainerElement: null, numberOfChecks: 0, activeAnimationPlayers: ActiveAnimationPlayersMap{_map: ..., _allPlayers: ...}, ref: ViewRef_{_view: ..., _originalMode: ...}, renderer: DebugDomRenderer{_delegate: ...}, staticNodeDebugInfos: [...], _currentDebugContext: DebugContext{_view: ..., _nodeIndex: ..., _tplRow: ..., _tplCol: ...}, context: Object{}, _hasExternalHostElement: true, projectableNodes: []}, _nodeIndex: 0, _tplRow: 0, _tplCol: 0}
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) LOG: 'bootstrap failed: EXCEPTION: Error in ./AppComponent class AppComponent_Host - inline template:0:0
+ORIGINAL EXCEPTION: The selector "kma-app" did not match any elements
+ORIGINAL STACKTRACE:
+Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)
+ERROR CONTEXT:
+[object Object]'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'EXCEPTION: Error: Uncaught (in promise): EXCEPTION: Error in ./AppComponent class AppComponent_Host - inline template:0:0
+ORIGINAL EXCEPTION: The selector "kma-app" did not match any elements
+ORIGINAL STACKTRACE:
+Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)
+ERROR CONTEXT:
+[object Object]'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'STACKTRACE:'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'Error: Uncaught (in promise): EXCEPTION: Error in ./AppComponent class AppComponent_Host - inline template:0:0
+ORIGINAL EXCEPTION: The selector "kma-app" did not match any elements
+ORIGINAL STACKTRACE:
+Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)
+ERROR CONTEXT:
+[object Object]
+    at resolvePromise (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:538:32)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:574:18
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)'
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: 'Unhandled Promise rejection:', 'EXCEPTION: Error in ./AppComponent class AppComponent_Host - inline template:0:0
+ORIGINAL EXCEPTION: The selector "kma-app" did not match any elements
+ORIGINAL STACKTRACE:
+Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)
+ERROR CONTEXT:
+[object Object]', '; Zone:', 'angular', '; Task:', 'Promise.then', '; Value:', ViewWrappedException{_wrapperMessage: 'Error in ./AppComponent class AppComponent_Host - inline template:0:0', _originalException: BaseException{message: 'The selector "kma-app" did not match any elements', stack: 'Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)'}, _originalStack: 'Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)', _context: DebugContext{_view: DebugAppView{clazz: ..., componentType: ..., type: ..., viewUtils: ..., parentInjector: ..., declarationAppElement: ..., cdMode: ..., contentChildren: ..., viewChildren: ..., viewContainerElement: ..., numberOfChecks: ..., activeAnimationPlayers: ..., ref: ..., renderer: ..., staticNodeDebugInfos: ..., _currentDebugContext: ..., context: ..., _hasExternalHostElement: ..., projectableNodes: ...}, _nodeIndex: 0, _tplRow: 0, _tplCol: 0}, _wrapperStack: 'Error: Error in ./AppComponent class AppComponent_Host - inline template:0:0
+    at ViewWrappedException.WrappedException [as constructor] (http://localhost:9876/base/node_modules/@angular/core/src/facade/exceptions.js:45:31)
+    at new ViewWrappedException (http://localhost:9876/base/node_modules/@angular/core/src/linker/exceptions.js:68:16)
+    at DebugAppView._rethrowWithContext (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:365:23)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:311:18)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)'}
+<br />Chrome 51.0.2704 (Windows 10 0.0.0) ERROR: Error{rejection: ViewWrappedException{_wrapperMessage: 'Error in ./AppComponent class AppComponent_Host - inline template:0:0', _originalException: BaseException{message: ..., stack: ...}, _originalStack: 'Error: The selector "kma-app" did not match any elements
+    at new BaseException (http://localhost:9876/base/node_modules/@angular/platform-browser/src/facade/exceptions.js:27:23)
+    at DomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/platform-browser/src/dom/dom_renderer.js:91:23)
+    at DebugDomRenderer.selectRootElement (http://localhost:9876/base/node_modules/@angular/core/src/debug/debug_renderer.js:26:39)
+    at DebugAppView.AppView.selectOrCreateHostElement (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:118:41)
+    at DebugAppView._View_AppComponent_Host0.createInternal (AppComponent.template.js:13:21)
+    at DebugAppView.AppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:96:21)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:308:44)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)', _context: DebugContext{_view: ..., _nodeIndex: ..., _tplRow: ..., _tplCol: ...}, _wrapperStack: 'Error: Error in ./AppComponent class AppComponent_Host - inline template:0:0
+    at ViewWrappedException.WrappedException [as constructor] (http://localhost:9876/base/node_modules/@angular/core/src/facade/exceptions.js:45:31)
+    at new ViewWrappedException (http://localhost:9876/base/node_modules/@angular/core/src/linker/exceptions.js:68:16)
+    at DebugAppView._rethrowWithContext (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:365:23)
+    at DebugAppView.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/view.js:311:18)
+    at ComponentFactory.create (http://localhost:9876/base/node_modules/@angular/core/src/linker/component_factory.js:157:36)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:386:44)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:364:26)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at NgZoneImpl.runInner (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:84:71)
+    at NgZone.run (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone.js:235:66)
+    at ApplicationRef_.run (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:362:14)
+    at ApplicationRef_.bootstrap (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:384:21)
+    at eval (http://localhost:9876/base/node_modules/@angular/core/src/application_ref.js:166:50)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:323:29)
+    at Object.onInvoke (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:53:41)
+    at ZoneDelegate.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:322:35)
+    at Zone.run (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:216:44)
+    at http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:571:58
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:356:38)
+    at Object.onInvokeTask (http://localhost:9876/base/node_modules/@angular/core/src/zone/ng_zone_impl.js:44:41)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:355:43)
+    at Zone.runTask (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:256:48)
+    at drainMicroTaskQueue (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:474:36)
+    at XMLHttpRequest.ZoneTask.invoke (http://localhost:9876/base/node_modules/zone.js/dist/zone.js?8b9c8d0a7e549abe9edec8da5a095f206d206277:426:22)'}, promise: ZoneAwarePromise{__zone_symbol__state: 0, __zone_symbol__value: ViewWrappedException{_wrapperMessage: ..., _originalException: ..., _originalStack: ..., _context: ..., _wrapperStack: ...}}, zone: Zone{_properties: Object{isAngularZone: ...}, _parent: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, _name: 'angular', _zoneDelegate: ZoneDelegate{_taskCounts: ..., zone: ..., _parentDelegate: ..., _forkZS: ..., _forkDlgt: ..., _interceptZS: ..., _interceptDlgt: ..., _invokeZS: ..., _invokeDlgt: ..., _handleErrorZS: ..., _handleErrorDlgt: ..., _scheduleTaskZS: ..., _scheduleTaskDlgt: ..., _invokeTaskZS: ..., _invokeTaskDlgt: ..., _cancelTaskZS: ..., _cancelTaskDlgt: ..., _hasTaskZS: ..., _hasTaskDlgt: ...}}, task: ZoneTask{runCount: 1, type: 'microTask', zone: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, source: 'Promise.then', data: undefined, scheduleFn: undefined, cancelFn: null, callback: function () { ... }, invoke: function () { ... }}}
+</div>
+    </section>
+  </body>
+</html>
