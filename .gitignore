@@ -1,5 +1,6 @@
 .vscode
 dist
+test
 typings
 src/main.js
 src/main.js.map

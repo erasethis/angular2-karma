@@ -65,10 +65,10 @@ module.exports = function(config) {
 
     // optionally, configure the reporter
     coverageReporter: {
-      type: 'json',
+      type: 'html',
       dir: 'test/results/',
-      subdir: '.',
-      file: 'coverage.json'
+      subdir: './coverage',
+      file: 'coverage.html'
     },
 
     reporters: ['progress', 'html', 'coverage'],

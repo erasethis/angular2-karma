@@ -1,4 +1,4 @@
 {
   "port": 9000,
-  "server": { "baseDir": "./test/results" }
+  "startPath": "./test/results/index.html"
 }

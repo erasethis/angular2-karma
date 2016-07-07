@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
+    "istanbul": "^0.4.4",
     "jasmine-core": "^2.4.1",
     "karma": "^1.1.0",
     "karma-chrome-launcher": "^1.0.1",
@@ -31,15 +32,17 @@
     "karma-htmlfile-reporter": "^0.3.4",
     "karma-jasmine": "^1.0.2",
     "lite-server": "^2.2.0",
+    "phantomjs": "^2.1.7",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
   },
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"npm run server\" ",
     "postinstall": "typings install",
+    "coverage": "lite-server -c bs-config.code-coverage.json",
     "results": "lite-server -c bs-config.test-results.json",
     "server": "lite-server -c bs-config.web-server.json",
-    "tdd": "concurrently \"npm run start\" \"npm run test\" \"npm run results\" ",
+    "tdd": "concurrently \"npm run start\" \"npm run test\" \"npm run results\" \"npm run coverage\" ",
     "test": "karma start karma.conf.js",
     "tsc": "tsc",
     "tsc:w": "tsc -w -p src/tsconfig.json",
