@@ -1,7 +1,9 @@
 .vscode
+dist
 typings
 src/main.js
 src/main.js.map
 src/app/**/*.js
 src/app/**/*.map
 node_modules
+*.log

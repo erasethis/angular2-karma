@@ -36,6 +36,7 @@
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server -c ./config/bs-config.js",
     "postinstall": "typings install",
+    "test": "karma start config/karma.conf.js",
     "tsc": "tsc",
     "tsc:w": "tsc -w -p src/tsconfig.json",
     "typings": "typings"
